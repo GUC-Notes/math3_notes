@@ -3,7 +3,7 @@ These documents are written in TeX; To compile it
 ```bash
 > pdflatex main.tex
 ```
-the graphs are made by manin a python lib
+the graphs are made by manim a python lib
 ```bash
 > manim Class.py -s 
 ```
