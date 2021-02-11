@@ -8,9 +8,10 @@ the graphs are made by manim a python lib
 > manim Class.py -s 
 ```
 Then changing background color using imagemagic
- ```bsah
+ ```bash
 > convert Test.png  -transparent black -fill white -opaque none  result.png
 ```
+- - -
 
 ### Differential equations 
 [Lecture 15-17](https://github.com/aboueleyes/math_notes/blob/main/L15-16-17/main.pdf)
