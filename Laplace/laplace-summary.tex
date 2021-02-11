@@ -178,14 +178,41 @@
             \item by unit step $f(t) = \square[H(t-b)]$   
         \end{enumerate}
 \end{itemize}
+
 \subsection{t-shifiting property}
+
 \begin{itemize}
         \item $\bb[H(t-a)] = \frac{1}{s}e^{-as}$
         \item $\bb[f(t-a)H(t-a)]= F(S)e^{-as}$
 \end{itemize}
+
 \subsection{Dirac's Delta Function}
 
+\[   
+    \delta (t -a) = 
+    \begin{cases}
+        \infty, & \text{$t = 0$} \\ 
+        0, & \text{$t \neq 0$} \\
+    \end{cases} \\
+\]
 
+\[
+    \bb[\delta(t-a)] = e^{-as} \\
+\]
+    \[
+        \bb[\delta(t)] = 1\\
+    \]   
+    \[
+    \bb[f(t) \delta(t-a)] = f(a) e^{-as}
 
+\]
+    \subsection{Convolution Product}
+\[
+    (f*g)(t) = \int_0^t f(\tau)g(t-\tau)d\tau;
+\]
+\subsection{Convolution Theorem}
+\[
+    \bb[f*g] = \bb[f]\bb[g]
+    ]\
 \end{document}
 
