@@ -67,7 +67,7 @@
 \begin{itemize}
     \item Converts integral equation $\&$ DE's into algebric equations.
     \item  \textsc{Coversion from \textcolor{red}{Time-domain} to \textcolor{red}{Frequency-domain}}
-    \item Applications of Laplace Transform: in ODE,PDE, integral equations, etc \dotsc    
+    \item Applications of Laplace Transform: in ODE,PDE, integral equations, etc \dots    
 \end{itemize}        
 \begin{equation}
     F(S) = \bb{f(t)} = \int_0^\infty f(t).e^{-st}dt; \ for\  t\geq0
@@ -183,7 +183,8 @@
 
 \begin{itemize}
         \item $\bb[H(t-a)] = \frac{1}{s}e^{-as}$
-        \item $\bb[f(t-a)H(t-a)]= F(S)e^{-as}$
+	\item $\bb[H(t-a) f(t-a)]= e^{-as}F(S)$
+	\item $\bb[H(t-a) f(t)]=e^{-as}F(S+a) $
 \end{itemize}
 
 \subsection{Dirac's Delta Function}
