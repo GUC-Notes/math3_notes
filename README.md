@@ -9,7 +9,7 @@ the graphs are made by manin a python lib
 ```
 Then changing background color using imagemagic
  ```bsah
-convert Test.png  -transparent black -fill white -opaque none  result.png
+> convert Test.png  -transparent black -fill white -opaque none  result.png
 ```
 
 ### Differential equations 
