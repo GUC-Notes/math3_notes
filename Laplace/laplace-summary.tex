@@ -130,41 +130,41 @@
 
 \[   
     H(t- a) = 
-     \begin{cases}
-    0, & \text{$t < a$} \\ 
-    1, & \text{$t > a$}
-     \end{cases}
+    \begin{cases}
+        0, & \text{$t < a$} \\ 
+        1, & \text{$t > a$}
+    \end{cases}
 \]
 \begin{center}
-\includegraphics[scale=0.15]{Test.png}
+    \includegraphics[scale=0.15]{Test.png}
 \end{center}
 
 
 \[   
     H(t) = 
-     \begin{cases}
-    0, & \text{$t < 0$} \\ 
-    1, & \text{$t > 0$}
-     \end{cases}
+    \begin{cases}
+        0, & \text{$t < 0$} \\ 
+        1, & \text{$t > 0$}
+    \end{cases}
 \]
 \begin{center}
-\includegraphics[scale=0.15]{Test1.png}
+    \includegraphics[scale=0.15]{Test1.png}
 \end{center}
 
 
 \[   
     H(t- b) = 
-     \begin{cases}
-    0, & \text{$t < b$} \\ 
-    1, & \text{$t > b$}
-     \end{cases}
+    \begin{cases}
+        0, & \text{$t < b$} \\ 
+        1, & \text{$t > b$}
+    \end{cases}
 \]
 
 \begin{center}
-\includegraphics[scale=0.15]{Test3.png}
+    \includegraphics[scale=0.15]{Test3.png}
 \end{center}
 
-\section{Notes}
+\subsubsection{Notes}
 \begin{itemize}
     \item $H(f(t)) = \square; a< t < b$ 
         \begin{enumerate}
@@ -177,7 +177,15 @@
             \item by definition $F(S) = \int_b^\infty \square e^{-st} dt$
             \item by unit step $f(t) = \square[H(t-b)]$   
         \end{enumerate}
-
 \end{itemize}
+\subsection{t-shifiting property}
+\begin{itemize}
+        \item $\bb[H(t-a)] = \frac{1}{s}e^{-as}$
+        \item $\bb[f(t-a)H(t-a)]= F(S)e^{-as}$
+\end{itemize}
+\subsection{Dirac's Delta Function}
+
+
+
 \end{document}
 
