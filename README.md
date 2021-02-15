@@ -12,7 +12,8 @@ Then changing background color using imagemagic
 > convert Test.png  -transparent black -fill white -opaque none  result.png
 ```
 - - -
-###Lectures 3,4,5
+### Lectures 3,4,5
+
 [Link](https://github.com/aboueleyes/math_notes/blob/main/L3-4-5/main.pdf)
 ### Double integrals
 [Link](https://github.com/aboueleyes/math_notes/blob/main/double-integrals/main.pdf)
