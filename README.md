@@ -28,4 +28,4 @@ Then changing background color using imagemagic
 
 ###Vector Functions
 
-[Vector Functions](https://github.com/aboueleyes/math_notes/blob/main/Vector Functions/Vector Functions.pdf)
+[Vector Functions]("https://github.com/aboueleyes/math_notes/blob/main/Vector Functions/Vector Functions.pdf")
