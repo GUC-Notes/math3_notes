@@ -26,6 +26,6 @@ Then changing background color using imagemagic
 
 [Laplace summary](https://github.com/aboueleyes/math_notes/blob/main/Laplace/laplace-summary.pdf)
 
-###Vector Functions
+### Vector Functions
 
 [Vector Functions](https://github.com/aboueleyes/math_notes/blob/main/Vector%20Functions/Vector%20Functions.pdf)
