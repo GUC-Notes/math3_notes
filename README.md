@@ -29,3 +29,7 @@ Then changing background color using imagemagic
 ### Vector Functions
 
 [Vector Functions](https://github.com/aboueleyes/math_notes/blob/main/Vector%20Functions/Vector%20Functions.pdf)
+
+### Line Integrals 
+
+[Line Integrals ](https://github.com/aboueleyes/math_notes/blob/main/Vector%20Functions/Line%20Integrals.pdf)
